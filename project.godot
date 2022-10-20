@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="Merchants Prototype"
+run/main_scene="res://StartScreen/StartScreen.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Global.gd"
 
 [gui]
 

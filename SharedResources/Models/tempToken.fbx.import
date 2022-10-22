@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/tempToken.fbx-369198096795b1d00ce27c61388bc868.scn"
+path="res://.import/tempToken.fbx-f369b6ee9c859c0b0e13acadae7e9c37.scn"
 
 [deps]
 
-source_file="res://Models/tempToken.fbx"
-dest_files=[ "res://.import/tempToken.fbx-369198096795b1d00ce27c61388bc868.scn" ]
+source_file="res://SharedResources/Models/tempToken.fbx"
+dest_files=[ "res://.import/tempToken.fbx-f369b6ee9c859c0b0e13acadae7e9c37.scn" ]
 
 [params]
 

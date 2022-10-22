@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Models/tempToken.fbx" type="PackedScene" id=1]
+[ext_resource path="res://SharedResources/Models/tempToken.fbx" type="PackedScene" id=1]
 
 [node name="MerchantToken" type="Spatial"]
 

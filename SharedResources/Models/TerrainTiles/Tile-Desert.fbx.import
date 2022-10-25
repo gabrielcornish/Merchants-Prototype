@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tile-Nul.fbx-babfee3f7b572b572ace1f8c28df1543.scn"
+path="res://.import/Tile-Desert.fbx-09e0cf051fb4b68472bec62b9de0f3bf.scn"
 
 [deps]
 
-source_file="res://Models - No Scenes/Tile-Nul.fbx"
-dest_files=[ "res://.import/Tile-Nul.fbx-babfee3f7b572b572ace1f8c28df1543.scn" ]
+source_file="res://SharedResources/Models/TerrainTiles/Tile-Desert.fbx"
+dest_files=[ "res://.import/Tile-Desert.fbx-09e0cf051fb4b68472bec62b9de0f3bf.scn" ]
 
 [params]
 

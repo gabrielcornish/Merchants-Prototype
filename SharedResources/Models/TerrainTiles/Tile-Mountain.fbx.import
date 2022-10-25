@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tile-Water.fbx-d8795e1e49c2b8eb3cc105cde111232f.scn"
+path="res://.import/Tile-Mountain.fbx-85a31d862a3dd839d8982ad7f4e09b41.scn"
 
 [deps]
 
-source_file="res://Models - No Scenes/Tile-Water.fbx"
-dest_files=[ "res://.import/Tile-Water.fbx-d8795e1e49c2b8eb3cc105cde111232f.scn" ]
+source_file="res://SharedResources/Models/TerrainTiles/Tile-Mountain.fbx"
+dest_files=[ "res://.import/Tile-Mountain.fbx-85a31d862a3dd839d8982ad7f4e09b41.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Tile-City.fbx-d082b67f83d9018e8229233c13b86427.scn"
+path="res://.import/Tile-Plains.fbx-fb11e692f784db1eebbc0e0bd5939cf7.scn"
 
 [deps]
 
-source_file="res://Models - No Scenes/Tile-City.fbx"
-dest_files=[ "res://.import/Tile-City.fbx-d082b67f83d9018e8229233c13b86427.scn" ]
+source_file="res://SharedResources/Models/TerrainTiles/Tile-Plains.fbx"
+dest_files=[ "res://.import/Tile-Plains.fbx-fb11e692f784db1eebbc0e0bd5939cf7.scn" ]
 
 [params]
 

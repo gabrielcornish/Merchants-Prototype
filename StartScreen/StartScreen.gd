@@ -2,7 +2,7 @@ extends Control
 
 
 func _on_NewGameButton_pressed():
-	Global.goto_scene("res://MainGame/MainGame.tscn")
+	Global.goto_scene("res://MainGame/GameSpace.tscn")
 
 
 

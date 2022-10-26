@@ -1,10 +1,18 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://GameBoard/Board.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://GUI/GUI.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GameBoard/BoardManagement.gd" type="Script" id=4]
 
 [node name="GameSpace" type="Spatial"]
+script = ExtResource( 4 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
 
 [node name="Board" parent="." instance=ExtResource( 1 )]
 
-[node name="Player" parent="." instance=ExtResource( 2 )]
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.89378, -0.321017, 0.313219, 0, 0.69836, 0.715747, -0.448506, -0.63972, 0.62418, 1.74184, 2.66921, 1.93983 )
+
+[node name="GUI" parent="." instance=ExtResource( 3 )]

@@ -12,5 +12,5 @@ func start_player_turn():
 	#yield(player, "out_of_trader_movement_points")
 		#The above 'yield' will hold the game at this state until we hit a certain trigger. 
 		#We can stash anything we want in here, then we could have the turn advance with a signal or a button press
-	yield(get_tree().create_timer(0.5), "timeout")
-	Events.emit_signal("end_player_turn")
+	#yield(get_tree().create_timer(0.5), "timeout")
+	#Events.emit_signal("end_player_turn")

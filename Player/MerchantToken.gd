@@ -1,6 +1,6 @@
 extends Spatial
 
-onready var token = $merchantToken
+onready var token = $Token
 onready var destination = $Position3D
 
 var new_transform = Vector3(2,0,0)

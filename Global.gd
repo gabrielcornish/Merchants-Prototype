@@ -1,6 +1,8 @@
 extends Node
 
+const MAX_TURNS = 3
 var current_scene = null
+var turn_number = 0
 
 func _ready():
 	var root = get_tree().get_root()

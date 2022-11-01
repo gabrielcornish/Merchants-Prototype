@@ -14,6 +14,13 @@ func _ready():
 #The board then passes the turn back to the player
 
 func start_player_turn():
+	Global.turn_number += 1
+	
+	#if game is over
+	if Global.turn_number >= Global.MAX_TURNS:
+		Global.goto_scene("res://GameEndScreen/GameEndScreen.tscn")
+		return
+	
 	Events.emit_signal("start_player_turn")
 
 

@@ -1,7 +1,5 @@
 extends Node
 
-#export(Array, PackedScene) var merchant_token = []
-
 var merchant_names = [
 	"Laureion Mirwald",
 "Helicaon Topp",
@@ -307,8 +305,7 @@ var merchant_names = [
 var merchant_name = ""
 
 func _ready():
+	randomize()
 	merchant_names.shuffle()
 	merchant_name = merchant_names[0]
 	print(merchant_name)
-	#merchant_token.shuffle()
-	#merchant_token[1].queue_free
